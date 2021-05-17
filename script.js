@@ -26,13 +26,13 @@ if ((mes === `dezembro`) || (mes === `janeiro`)){
 
 //04
 let nome = `Romildo`
-if((nome = `R`)){
+if(nome = `R`){
     console.log(`Okay, seu nome começa com a letra R`)
 }
 
 //5//
 let nombre = `Angela`
 let sobrenome = `Menezes` 
-if ((nombre = `E`) || (sobrenome > length < 6)){
+if ((nombre.substring (0,1) === `E`) || (sobrenome > length < 6)){
     console.log(`Seu sobrenome contem mais de 6 caracteres ou seu nome começa com a letra E`)
 }
